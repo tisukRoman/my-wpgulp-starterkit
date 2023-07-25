@@ -10,6 +10,5 @@ Because of a strange bug in the original wpgulp I added node_modules folder to t
 
 1. Clone the repo locally: <code>git clone https://github.com/tisukRoman/my-wpgulp-starterkit.git</code>
 2. Rename Project folder: <code>mv my-wpgulp-starterkit your-project-name</code>
-3. In <code>wpgulp.config.js</code> change the following constants:
-  1) projectName
-  2) projectURL (address of your local server)
+3. Install gulp-cli locally: <code>npm i gulp-cli</code>
+4. In <code>wpgulp.config.js</code> change the following constants: <code>projectName</code>, <code>projectURL</code>
