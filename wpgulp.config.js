@@ -1,18 +1,9 @@
-/**
- * WPGulp Configuration File
- *
- * 1. Edit the variables as per your project requirements.
- * 2. In paths you can add <<glob or array of globs>>.
- *
- * @package WPGulp
- */
-
-// Project options.
+const projectName = "project-name";
+const projectURL = "localhost:10014";
 
 // Local project URL of your already running WordPress site.
 // > Could be something like "wpgulp.local" or "localhost"
 // > depending upon your local WordPress setup.
-const projectURL = "localhost:10014";
 
 // Theme/Plugin URL. Leave it like it is; since our gulpfile.js lives in the root folder.
 const productURL = "./";
@@ -78,7 +69,7 @@ const watchPhp = "./**/*.php";
 
 // >>>>> Zip file config.
 // Must have.zip at the end.
-const zipName = "project-name.zip";
+const zipName = `${projectName}.zip`;
 
 // Must be a folder outside of the zip folder.
 const zipDestination = "./../"; // Default: Parent folder.
@@ -110,16 +101,16 @@ const zipIgnoreGlob = [
 
 // >>>>> Translation options.
 // Your text domain here.
-const textDomain = "project-name";
+const textDomain = projectName;
 
 // Name of the translation file.
-const translationFile = "project-name.pot";
+const translationFile = `${projectName}.pot`;
 
 // Where to save the translation files.
 const translationDestination = "./languages";
 
 // Package name.
-const packageName = "project-name";
+const packageName = projectName;
 
 // Where can users report bugs.
 const bugReport = "";
