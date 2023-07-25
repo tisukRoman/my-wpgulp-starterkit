@@ -2,7 +2,11 @@
 
 <main class="page">
 
-  <p>Page Content...</p>
+<section id="section">
+  <div class="section__container">
+    Page Section...
+  </div>
+</section>
 
 </main>
 
