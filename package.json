@@ -44,5 +44,8 @@
     "translate": "gulp translate",
     "styles-rtl": "gulp stylesRTL",
     "cache-clear": "gulp clearCache"
+  },
+  "dependencies": {
+    "gulp-cli": "^2.3.0"
   }
 }
