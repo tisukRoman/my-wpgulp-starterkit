@@ -11,6 +11,8 @@
 
   <header id="header" class="header">
     <div class="header__container">
-      Header
+      <nav class="header__menu">
+        <?php wp_nav_menu(array('theme_location' => 'project-name-main-menu')); ?>
+      </nav>
     </div>
   </header>
